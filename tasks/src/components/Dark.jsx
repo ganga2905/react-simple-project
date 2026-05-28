@@ -41,36 +41,6 @@ export default ThemeToggle;
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Dark=()=>{
 
   const [theme,setTheme]=useState('light')
@@ -91,3 +61,6 @@ const Dark=()=>{
   )
 }
 export default Dark;
+
+
+

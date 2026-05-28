@@ -23,7 +23,9 @@ const Form=()=>{
     return(
         <div>
             <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="Enter Name" name="name"onChange={handleChange} value={data.name}/>
+                <input type="text"
+                 placeholder="Enter Name" 
+                 name="name"onChange={handleChange} value={data.name}/>
                 <input type="email" placeholder="Enter Email" name="email"onChange={handleChange} value={data.email}/>
                 <input type="password" placeholder="Enter Password" name="password"onChange={handleChange} value={data.password}/>
                 <button>submit</button>

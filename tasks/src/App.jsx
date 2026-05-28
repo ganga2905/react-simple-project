@@ -13,6 +13,7 @@
 // import Color from './Color'
 // import SimpleFun from './components/SimpleFun'
 import Crud from './components/crud/Crud'
+import Hide from './components/Hide'
 // import Theme from './components/Theme'
 // import UseEffect from './hooks/UseEffect'
 // import UseReducer from './hooks/UseReducer'
@@ -50,7 +51,8 @@ function App() {
     <Theme/>
     <UseReducer/>
     <UseRedux/> */}
-    <Crud/>
+    {/* <Crud/> */}
+    <Hide/>
 
     </>
   )
